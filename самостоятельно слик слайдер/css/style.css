@@ -1,0 +1,43 @@
+section {
+    padding: 100px 0;
+}
+
+.container {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+img {
+    width: 100%;
+    height: 300px;
+}
+
+body {
+    background-color: gray;
+}
+
+.slick-prev {
+    background: url(../images/left-arrow.png);
+    left: -35px;
+    display: flex;
+}
+
+.slick-next {
+    background: url(../images/right-arrow.png);
+    right: -35px;
+}
+
+.slick-prev, .slick-next {
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 30px;
+    height: 60px;
+}
+
+
+
+.slick-next:before, .slick-next:after,
+.slick-prev:before, .slick-prev:after {
+    content: none;
+}
