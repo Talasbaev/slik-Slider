@@ -13,8 +13,9 @@ img {
 }
 
 body {
-    background-color: aqua;
+    background-color: green;
 }
+
 /* точки */
 .slick-dots li button:before {
     font-size: 40px;
